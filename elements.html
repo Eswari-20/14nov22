@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+
+		function user(){
+			var userName=document.getElementById("username").value
+			document.getElementById("ice").innerHTML=userName
+		}
+			/*var textData=document.getElementsByClassName("para")
+			console.log(textData.length)
+			for(var i=0;i<textData.length;i++){
+				console.log(textData[i].innerHTML)
+			}
+			var list=document.getElementsByTagName("li")
+			for(var d=0;d<list.length;d++){
+				console.log(list[d].innerHTML)
+			}
+		}*/
+	</script>
+</head>
+<body>
+	<input id="username"/>
+	<h1>Name is:<span id="ice">cool</span></h1>
+	<!-- <p class="para">how are you</p>
+	<p class="para">i am feeling good</p>
+	<h1 class="para">your eyes look different today</h1>
+	<ul>
+		<li>Apple</li>
+		<li>Mango</li>
+		<li>Banana</li>
+		<li>Grapes</li>
+		<li>Guava</li>
+	</ul> -->
+	<button onclick="user()">submit</button>
+
+</body>
+</html>
